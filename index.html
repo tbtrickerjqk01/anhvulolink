@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Video & Ảnh</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        img, video {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 15px;
+            margin: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 10px;
+            background: #fff;
+            color: #111;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📸 Ảnh & 🎬 Video</h1>
+
+        <!-- ẢNH -->
+        <img src="anh.jpg" alt="Ảnh của tôi">
+
+        <!-- VIDEO -->
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Trình duyệt không hỗ trợ video.
+        </video>
+
+        <!-- NÚT MỞ VIDEO -->
+        <a class="btn" href="video.mp4" target="_blank">
+            ▶️ Mở video
+        </a>
+
+    </div>
+
+</body>
+</html>
